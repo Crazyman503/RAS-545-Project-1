@@ -1,0 +1,5 @@
+.venv
+.idea
+cords.txt
+part_2_maze_solution/part_2_maze_solution/*
+camera.png
