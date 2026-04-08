@@ -152,7 +152,7 @@ def main():
     ap.add_argument("--blur", type=int, default=5)
     ap.add_argument("--open", type=int, default=0)
     ap.add_argument("--close", type=int, default=0)
-    ap.add_argument("--threshold", type=float, default=10.0)
+    ap.add_argument("--threshold", type=float, default=1)
 
     ap.add_argument("--circles-overlay-out", default="part_2_maze_solution/circles_overlay.png")
     ap.add_argument("--grid-overlay-out", default="part_2_maze_solution/grid_overlay.png")
