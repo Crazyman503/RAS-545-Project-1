@@ -17,7 +17,7 @@ def on_mouse(event, x, y, flags, param):
         print("Cleared points")
 
 def main():
-    cap = cv2.VideoCapture(1)  # change to 1/2 if you have multiple cameras
+    cap = cv2.VideoCapture(0)  # change to 1/2 if you have multiple cameras
     if not cap.isOpened():
         raise RuntimeError("Could not open camera. Try a different index (1, 2) or check permissions.")
 

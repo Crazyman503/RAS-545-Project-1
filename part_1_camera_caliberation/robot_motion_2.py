@@ -4,7 +4,7 @@ import time
 # # List likely serial devices (won't error if missing)
 # ls -l /dev/ttyACM* /dev/ttyUSB* /dev/serial/by-id 2>/dev/null || true
 
-device = pydobot.Dobot(port="COM6")
+device = pydobot.Dobot(port="COM7")
 
 def move_to_home(device):
     #_______________________________________________________

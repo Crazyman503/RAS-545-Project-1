@@ -258,7 +258,7 @@ def run_detection_and_save(frame: np.ndarray, args):
 
 def main():
     ap = argparse.ArgumentParser(description="Camera-only maze corners detector.")
-    ap.add_argument("--cam-index", type=int, default=1, help="Camera index to open (default: 0).")
+    ap.add_argument("--cam-index", type=int, default=0, help="Camera index to open (default: 0).")
     ap.add_argument("--out", default="part_2_maze_solution/maze_corners_overlay.png", help="Path to save overlay visualization")
     ap.add_argument("--width", type=int, default=1200, help="Processing resize width (0 to disable)")
     ap.add_argument("--expand", type=float, default=10.0, help="Outward expansion in pixels (negative shrinks inward)")

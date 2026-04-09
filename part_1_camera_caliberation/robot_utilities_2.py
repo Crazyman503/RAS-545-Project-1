@@ -9,7 +9,7 @@ def move_to_home(device):
     # Code ##################################################
     print("Homing the robot...")
    # device.home()  # Home the robot to the origin position
-    device.move_to(x = 240, y = 0 , z = 150 , r= 45)  # Move to position (x=250, y=0, z=50) with r=0
+    device.move_to(x = 250, y = 0 , z = 150 , r= 45)  # Move to position (x=250, y=0, z=50) with r=0
     # Code End ##############################################
     # ______________________________________________________
 

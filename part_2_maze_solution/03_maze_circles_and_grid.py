@@ -147,7 +147,7 @@ def draw_grid_with_values(img: np.ndarray, grid: int, values_mat: np.ndarray, fo
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", default = "part_2_maze_solution/maze_warp.png")
-    ap.add_argument("--grid", type=int, default=25)
+    ap.add_argument("--grid", type=int, default=23)
     ap.add_argument("--adaptive", type=int, default=0)
     ap.add_argument("--blur", type=int, default=5)
     ap.add_argument("--open", type=int, default=0)
