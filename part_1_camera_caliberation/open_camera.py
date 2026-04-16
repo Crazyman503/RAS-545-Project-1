@@ -7,7 +7,7 @@ def put_text(img, text, org, scale=0.6, thickness=2):
     cv2.putText(img, text, org, cv2.FONT_HERSHEY_SIMPLEX, scale, (255, 255, 255), thickness, cv2.LINE_AA)
 
 def main():
-    cam_index = 1          # change if needed (0, 1, 2, ...)
+    cam_index = 2          # change if needed (0, 1, 2, ...)
     width, height = 640 , 480  
     save_dir = "captures"
     os.makedirs(save_dir, exist_ok=True)

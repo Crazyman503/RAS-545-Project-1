@@ -17,9 +17,9 @@ def move_to_specific_position(device,x,y,z,r = 0.0):
     #_______________________________________________________
     # Moving the robot to a specific position
     # Code ##################################################
-    device.speed(50, 50)
+    device.speed(100, 100)
     device.move_to(x = x, y = y , z = z , r= 45)  # Move to position (x=250, y=0, z=50) with r=0
-    time.sleep(2)
+    time.sleep(1)
     # Code End ##############################################
     # ______________________________________________________
 
